@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function ComParametro(props) {
+export default function ComParametro(props) { // propriedade somente leitura
     return (
         <div>
             <h2>{props.titulo}</h2>
