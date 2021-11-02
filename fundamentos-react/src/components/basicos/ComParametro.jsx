@@ -10,5 +10,5 @@ export default function ComParametro(props) { // propriedade somente leitura
                 <strong> {props.nota} </strong>
             </p>
         </div>
-    )
+    );
 }
