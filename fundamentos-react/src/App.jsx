@@ -1,3 +1,4 @@
+import './App.css'
 import React from 'react';
 
 import Card from './components/layout/Card';
@@ -9,8 +10,10 @@ import Primeiro from './components/basicos/Primeiro';
 
 export default function App(props) {
     return (
-        <div id="app">
+        <div className="App">
         <h1>Fundamentos do React</h1>
+
+        <div className="Cards">
 
         <Card titulo="#04 - Desafio Aleatorio">
             <Aleatorio min={1} max={60} />
@@ -31,6 +34,8 @@ export default function App(props) {
         <Card titulo="#01 - Primeiro Componente">
         <Primeiro></Primeiro>
         </Card>
+        </div>
+
        </div>
     );
 }
