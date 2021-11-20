@@ -1,6 +1,9 @@
 import './App.css'
 import React from 'react';
 
+import Card from './components/layout/Card';
+
+import DiretaPai from "./components/comunicacao/DiretaPai";
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
@@ -20,17 +23,21 @@ export default function App(props) {
             <h1>Fundamentos do React</h1>
 
             <div className="Cards">
-            <Card titulo="#08 - Renderização Condicional " color="#982395">
-                   <ParOuImpar numero={21}></ParOuImpar>
-                   <UsuarioInfo usuario={{ nome: 'Rafael' }} />
+                <Card titulo="#09 - Comunicação Direta" color="#59323C">
+                    <DiretaPai></DiretaPai>
                 </Card>
 
-            <Card titulo="#07 - Desafio Repetição " color="#3A9AD9">
-                   <TabelaProdutos></TabelaProdutos>
+                <Card titulo="#08 - Renderização Condicional " color="#982395">
+                    <ParOuImpar numero={21}></ParOuImpar>
+                    <UsuarioInfo usuario={{ nome: 'Rafael' }} />
                 </Card>
 
-            <Card titulo="#06 - Repetição " color="#FF4C65">
-                   <ListaAlunos></ListaAlunos>
+                <Card titulo="#07 - Desafio Repetição " color="#3A9AD9">
+                    <TabelaProdutos></TabelaProdutos>
+                </Card>
+
+                <Card titulo="#06 - Repetição " color="#FF4C65">
+                    <ListaAlunos></ListaAlunos>
                 </Card>
 
                 <Card titulo="#05 -Componente com Filhos" color="#00c8F8">
