@@ -3,6 +3,7 @@ import React from 'react';
 
 import Card from './components/layout/Card';
 
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
@@ -10,7 +11,6 @@ import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ListaAlunos from './components/repeticao/ListaAlunos';
 import Familia from './components/basicos/Familia';
 import FamiliaMembro from './components/basicos/FamiliaMembro';
-import Card from './components/layout/Card';
 import Aleatorio from './components/basicos/Aleatorio';
 import Fragmento from './components/basicos/Fragmento';
 import ComParametro from './components/basicos/ComParametro';
@@ -23,6 +23,10 @@ export default function App(props) {
             <h1>Fundamentos do React</h1>
 
             <div className="Cards">
+            <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
+                    <IndiretaPai></IndiretaPai>
+                </Card>
+
                 <Card titulo="#09 - Comunicação Direta" color="#59323C">
                     <DiretaPai></DiretaPai>
                 </Card>
