@@ -2,3 +2,4 @@
 https://www.udemy.com/course/react-redux-pt/learn/lecture/6393446#overview
 
 ### Fundamentos React
+![Alt text](https://github.com/silvarafaell/Curso_React_Redux/blob/main/fundamentos-react/images/Fundamentos_React.png?raw=true "Fundamentos React")
