@@ -9,7 +9,7 @@ import Param from '../../views/examples/Param'
 const Context = props => (
     <main className="Context">
         <Routes>
-            <Route path="/" caseSensitive={false} element={<Home />} />
+            <Route exact path="/" caseSensitive={false} element={<Home />} />
             <Route path="/about" caseSensitive={false} element={<About />} />
             <Route path="/param/:id" caseSensitive={false} element={<Param />} />
         </Routes>
