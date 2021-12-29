@@ -15,3 +15,5 @@ https://www.udemy.com/course/react-redux-pt/learn/lecture/6393446#overview
 ![Alt text](https://github.com/silvarafaell/Curso_React_Redux/blob/main/hooks/images/UseState.png?raw=true "Hooks - UseState")
 
 ### Projeto Cadastro - Integração com Banco de dados(Firestore)
+- npx create-next-app fundamentos > npm run dev 
+- NextJs é a versao framework da biblioteca frontend mais famosa do mundo
