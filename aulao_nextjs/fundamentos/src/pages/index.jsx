@@ -13,6 +13,7 @@ export default function Inicio() {
             <Navegador texto='Exemplo' destino='/exemplo' cor='crimson' />
             <Navegador texto='Navegacao #01' destino='/navegacao' cor='green' />  {/*podemos criar uma pasta com arquivo index dentro ou somente um arquivo(por exemplo o arquivo exemplo) */}
             <Navegador texto='Navegacap #02' destino='/cliente/123' cor='blue' />
+            <Navegador texto='Componente com Estado' destino='/estado' cor='pink' />
         </div>
     )
 }
