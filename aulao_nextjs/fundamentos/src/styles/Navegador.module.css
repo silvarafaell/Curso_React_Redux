@@ -1,5 +1,6 @@
 .navegador {
     padding: 30px;
-    margin: 10x; /* para os items não ficar muito juntos*/ 
+    margin: 10px; /* para os items não ficar muito juntos*/ 
     border-radius: 8px;
+    cursor: pointer; /* para dizer que é clicavel, ficando um mãozinha*/
 }
