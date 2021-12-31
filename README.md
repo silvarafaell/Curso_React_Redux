@@ -17,3 +17,6 @@ https://www.udemy.com/course/react-redux-pt/learn/lecture/6393446#overview
 ### Projeto Cadastro - Integração com Banco de dados(Firestore)
 - npx create-next-app fundamentos > npm run dev 
 - NextJs é a versao framework da biblioteca frontend mais famosa do mundo
+- Sintase JSX nos permite colocar dentro do nosso componente trechos de HTML e HTML entre aspas
+- Usando par de chaves podemos usar códigos javascript
+- Navegacao dinâmica, colocamos o nome do arquivo com cochetes
