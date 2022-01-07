@@ -20,3 +20,11 @@ https://www.udemy.com/course/react-redux-pt/learn/lecture/6393446#overview
 - Sintase JSX nos permite colocar dentro do nosso componente trechos de HTML e HTML entre aspas
 - Usando par de chaves podemos usar códigos javascript
 - Navegacao dinâmica, colocamos o nome do arquivo com cochetes
+
+- Comandos utilizados: 
+> npx create-next-app next-crud
+> FireBase Console
+> npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+> npx tailwindcss init -p
+> npm install --save-dev @types/react typescript
+> npm install firebase@8.10.0 --save
