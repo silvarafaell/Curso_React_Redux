@@ -31,4 +31,8 @@ https://www.udemy.com/course/react-redux-pt/learn/lecture/6393446#overview
 ![Alt text](https://github.com/silvarafaell/Curso_React_Redux/blob/main/next-crud/images/home.png?raw=true "NextCrud - Home")
 
 ### TodoApp (Backend)
-- Comandos utilizados: npm init -y, npm i --save -E body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5, npm i --save-dev -E nodemon@1.11.0
+Comandos utilizados: 
+- npm init -y
+- npm i --save -E body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5 
+- npm i --save-dev -E nodemon@1.11.0
+- npm run dev
