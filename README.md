@@ -36,3 +36,8 @@ Comandos utilizados:
 - npm i --save -E body-parser@1.15.2 express@4.14.0 mongoose@4.7.0 node-restful@0.2.5 pm2@2.1.5 
 - npm i --save-dev -E nodemon@1.11.0
 - npm run dev
+![Alt text](https://raw.githubusercontent.com/silvarafaell/Curso_React_Redux/main/todo-app/backend/src/images/POST.png "Post")
+
+![Alt text](https://github.com/silvarafaell/Curso_React_Redux/blob/main/todo-app/backend/src/images/POSTMAN_API_VAZIA_GET.png?raw=true "todos vazia")
+
+![Alt text](https://github.com/silvarafaell/Curso_React_Redux/blob/main/todo-app/backend/src/images/POST_CONCLUIR_CURSO_REACT.png?raw=true "Post")
