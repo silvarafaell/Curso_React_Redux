@@ -4,11 +4,14 @@ import 'modules/font-awesome/css/font-awesome.min.css'
 import React from 'react'
 import Menu from '../template/menu'
 import Routes from './routes'
+import { HashRouter } from 'react-router-dom'
 
 // função
 export default props => (
-    <div className='container'>
-        <Menu />
-        <Routes />
-    </div>
+    <HashRouter>
+        <div className='container'>
+            <Menu />
+            <Routes />
+        </div>
+    </HashRouter>
 )
